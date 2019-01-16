@@ -1,0 +1,51 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#gatsbyVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.videoOverlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(166, 226, 226, 0.15);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+.titleMessage {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 5;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.titleMessage .heading p {
+  color: #fff;
+  font-weight: 100;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  letter-spacing: 7px;
+}
+
+.titleMessage .heading .main {
+  font-size: 3rem;
+}
+
+.titleMessage .heading .sub {
+  font-size: 1.5rem;
+}
