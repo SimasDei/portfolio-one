@@ -1,6 +1,25 @@
+:root {
+  --primary-color: #1d976c;
+
+  --secondary-color: #93f9b9;
+
+  --text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+html {
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  background-color: rgb(27, 24, 24);
+  color: white;
+
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5; /* a nice line-height */
 }
 
 * {
@@ -43,9 +62,67 @@ body {
 }
 
 .titleMessage .heading .main {
-  font-size: 3rem;
+  font-size: 6rem;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0cc3db, 0 0 30px #0cc3db,
+    0 0 40px #0cc3db, 0 0 55px #0cc3db, 0 0 75px #0cc3db;
+  text-align: center;
 }
 
 .titleMessage .heading .sub {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.aboutSection {
+  padding: 5rem 0;
+}
+
+.aboutSection .aboutPaper {
+  min-height: 50rem;
+  max-width: 90vw;
+  margin: auto;
+}
+
+.heading-secondary {
+  display: block;
+  padding-top: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+  text-shadow: var(--text-shadow);
+}
+
+.aboutSection .u-margin-bottom {
+  margin-bottom: 8rem;
+}
+.aboutSection .avatar {
+  margin-left: 2rem;
+  width: 40rem;
+  height: 40rem;
+}
+
+.aboutSection .small-heading {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.aboutSection .paragraph {
+  font-size: 1.6rem;
+}
+
+.aboutSection .paragraph:not(:last-child) {
+  margin-bottom: 3rem;
 }

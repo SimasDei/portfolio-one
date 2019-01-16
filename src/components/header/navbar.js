@@ -7,7 +7,10 @@ const NavBar = () => {
   return (
     <AppBar position="sticky" style={{ background: 'transparent' }}>
       <Toolbar>
-        <Typography variant="title" style={{ color: 'white' }}>
+        <Typography
+          className="navbar-logo"
+          style={{ color: '#0cc3db', fontSize: '2rem' }}
+        >
           Simas Dei
         </Typography>
       </Toolbar>
