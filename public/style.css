@@ -163,11 +163,25 @@ body {
     ),
     url('/images/techbg.jpeg');
   background-size: cover;
+  transform: skewY(-7deg);
+}
+
+.skillsSection > * {
+  transform: skewY(7deg);
+}
+
+.skillsContainer {
+  justify-content: space-evenly;
+}
+
+.feature-box-container {
+  padding: 2rem;
 }
 
 .feature-box {
   background-color: rgba(178, 212, 221, 0.9);
   font-size: 1.6rem;
+  width: 20rem;
   padding: 2.5rem;
   text-align: center;
   border-radius: 0.5rem;
