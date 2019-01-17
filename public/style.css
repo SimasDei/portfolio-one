@@ -106,23 +106,41 @@ body {
 .aboutSection .u-margin-bottom {
   margin-bottom: 8rem;
 }
-.aboutSection .avatar {
-  margin: 2rem;
-  width: 100%;
-  height: 100%;
+
+.aboutSection .aboutText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutSection .small-heading {
   font-size: 2rem;
   font-weight: 100;
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .aboutSection .paragraph {
   font-size: 1.6rem;
+  padding: 1rem;
 }
 
 .aboutSection .paragraph:not(:last-child) {
   margin-bottom: 3rem;
+}
+
+.composition .composition-photo {
+  display: block;
+  margin: 0 auto;
+  width: 69%;
+  box-shadow: var(--text-shadow);
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+.composition .composition-photo:hover {
+  outline: 1.5rem solid var(--primary-color);
+  transform: scale(1.3) translateY(-1rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
 }

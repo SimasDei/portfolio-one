@@ -2,7 +2,6 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typed from 'react-typed';
 import Grid from '@material-ui/core/Grid';
-import Avatar from '@material-ui/core/Avatar';
 
 export default () => {
   return (
@@ -20,12 +19,7 @@ export default () => {
         />
         <div className="u-margin-bottom" />
 
-        <Grid
-          container={true}
-          spacing={24}
-          alignItems={'center'}
-          justify={'center'}
-        >
+        <Grid container={true} spacing={24} alignItems={'center'}>
           <Grid item xs={12} sm={12} md={6}>
             <div className="composition">
               <img
@@ -35,7 +29,7 @@ export default () => {
               />
             </div>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid item xs={12} sm={12} md={6} className="aboutText">
             <h3 className="small-heading">
               Very lucky to have found what I truly love doing.
             </h3>
