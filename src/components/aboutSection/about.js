@@ -26,14 +26,16 @@ export default () => {
           alignItems={'center'}
           justify={'center'}
         >
-          <Grid item xs={12} sm={6}>
-            <Avatar
-              className="avatar"
-              src={require('../../assets/dudebro.jpeg')}
-              alt="dude"
-            />
+          <Grid item xs={12} sm={12} md={6}>
+            <div className="composition">
+              <img
+                src={require('../../assets/profile.jpeg')}
+                alt="profile"
+                className="composition-photo"
+              />
+            </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={12} md={6}>
             <h3 className="small-heading">
               Very lucky to have found what I truly love doing.
             </h3>
