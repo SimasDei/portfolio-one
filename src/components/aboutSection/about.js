@@ -5,10 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 export default () => {
   return (
-    <section
-      className="aboutSection"
-      style={{ height: '500px', marginTop: '100vh' }}
-    >
+    <section id="#about" className="aboutSection">
       <Paper elevation={20} className="aboutPaper">
         <Typed
           className="heading-secondary"

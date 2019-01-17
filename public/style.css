@@ -1,7 +1,7 @@
 :root {
   --primary-color: #1d976c;
 
-  --secondary-color: #93f9b9;
+  --secondary-color: rgb(12, 195, 219);
 
   --text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
@@ -38,7 +38,13 @@ body {
 .videoOverlay {
   position: absolute;
   bottom: 0;
-  background: rgba(166, 226, 226, 0.15);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(29, 151, 108, 0.2),
+    rgba(12, 195, 219, 0.2)
+  );
+  background-size: cover;
+  /* background: rgba(166, 226, 226, 0.15); */
   color: #f1f1f1;
   width: 100%;
   height: 100%;
@@ -65,7 +71,7 @@ body {
   font-size: 6rem;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0cc3db, 0 0 30px #0cc3db,
-    0 0 40px #0cc3db, 0 0 55px #0cc3db, 0 0 75px #0cc3db;
+    0 0 40px rgb(12, 195, 219), 0 0 55px #0cc3db, 0 0 75px #0cc3db;
   text-align: center;
 }
 
@@ -74,6 +80,7 @@ body {
 }
 
 .aboutSection {
+  margin-top: 110vh;
   padding: 5rem 0;
 }
 
@@ -143,4 +150,27 @@ body {
   outline: 1.5rem solid var(--primary-color);
   transform: scale(1.3) translateY(-1rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+}
+
+.skillsSection {
+  width: 100%;
+  padding: 20rem 0;
+  margin-top: 20rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(29, 151, 108, 0.75),
+      rgba(10, 154, 173, 0.75)
+    ),
+    url('/images/techbg.jpeg');
+  background-size: cover;
+}
+
+.feature-box {
+}
+
+.feature-box i {
+  color: skyblue;
+}
+
+.feature-box p {
 }

@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 
 const NavBar = () => {
   return (
-    <AppBar position="sticky" style={{ background: 'transparent' }}>
+    <AppBar id="#top" position="sticky" style={{ background: 'transparent' }}>
       <Toolbar>
         <Typography
           className="navbar-logo"

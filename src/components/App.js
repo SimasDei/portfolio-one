@@ -3,6 +3,7 @@ import Header from './header/header';
 import Aux from '../hoc/auxilary';
 import About from './aboutSection/about';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import Skills from '../components/skillsSection/skillsSection';
 
 const theme = createMuiTheme({
   palette: {
@@ -18,6 +19,7 @@ class App extends Component {
         <Aux>
           <Header />
           <About />
+          <Skills />
         </Aux>
       </MuiThemeProvider>
     );
