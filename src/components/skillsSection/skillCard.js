@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+import { PieChart } from 'react-easy-chart';
 
 export default props => {
   return (
@@ -9,7 +10,15 @@ export default props => {
         <h3 style={{ color: props.color }} className="small-heading">
           {props.skill}
         </h3>
-        <p>Flip me!</p>
+
+        <PieChart
+          size={150}
+          innerHoleSize={100}
+          data={[
+            { key: 'A', value: 300, color: props.color },
+            { key: 'B', value: 60, color: 'white' }
+          ]}
+        />
       </div>
     </Grid>
   );

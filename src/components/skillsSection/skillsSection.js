@@ -12,7 +12,7 @@ export default () => {
 
         <SkillCard icon="fab fa-js-square fa-5x" skill="JS" color="yellow" />
 
-        <SkillCard icon="fab fa-react fa-5x" skill="REACT" color="blue" />
+        <SkillCard icon="fab fa-react fa-5x" skill="REACT" color="skyblue" />
 
         <SkillCard icon="fab fa-node fa-5x" skill="NODE" color="green" />
       </Grid>
