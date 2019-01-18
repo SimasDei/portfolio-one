@@ -179,6 +179,8 @@ body {
 }
 
 .feature-box {
+  position: relative;
+
   background-color: rgba(178, 212, 221, 0.9);
   font-size: 1.6rem;
   width: 20rem;
@@ -208,4 +210,10 @@ body {
 
 .feature-box h3 {
   text-shadow: var(--text-shadow);
+}
+
+.donut-chart-percent {
+  position: absolute;
+  top: 66%;
+  left: 42%;
 }
