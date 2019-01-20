@@ -5,7 +5,7 @@ import { PieChart } from 'react-easy-chart';
 export default props => {
   let customStyle = props.customStyle;
   return (
-    <Grid item lg={4} md={4} sm={6} xs={12} className="feature-box-container">
+    <Grid item lg={3} md={4} sm={6} xs={12} className="feature-box-container">
       <div className="feature-box">
         <i className={props.icon} />
         <h3 style={{ color: props.color }} className="small-heading">

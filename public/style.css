@@ -3,8 +3,8 @@
 
   --secondary-color: #0cc3db;
 
-  --text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
-  --box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  --text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
 }
 
 html {
@@ -216,4 +216,18 @@ body {
   position: absolute;
   top: 66%;
   left: 42%;
+}
+
+.skillsSection .adobe {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.skillsSection .adobe img {
+  margin: 1rem;
+  height: 6rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
 }
