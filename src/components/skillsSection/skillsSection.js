@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import SkillCard from './skillCard';
+import Typed from 'react-typed';
 
 const style = {
   stroke: 'none'
@@ -9,11 +10,19 @@ const style = {
 export default () => {
   return (
     <section id="skills" className="skillsSection">
+      <Typed
+        className="skills-heading"
+        strings={['SKILLS']}
+        loop
+        typeSpeed={80}
+        backSpeed={80}
+      />
+
       <Grid container className="skillsContainer">
         <SkillCard
           icon="fab fa-html5 fa-5x"
           skill="HTML"
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={98}
           customStyle={style}
           color="#dd4b25"
         />
@@ -23,7 +32,7 @@ export default () => {
           skill="CSS"
           customStyle={style}
           color="#146eb0"
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={86}
         />
 
         <SkillCard
@@ -31,7 +40,7 @@ export default () => {
           skill="JS"
           customStyle={style}
           color="#efd81d"
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={82}
         />
 
         <SkillCard
@@ -39,7 +48,7 @@ export default () => {
           skill="REACT"
           color="#5ed3f3"
           customStyle={style}
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={90}
         />
 
         <SkillCard
@@ -47,44 +56,41 @@ export default () => {
           skill="NODE"
           color="#71a761"
           customStyle={style}
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={74}
         />
         <SkillCard
           icon="fab fa-php fa-5x"
           skill="PHP"
           color="#7377ad"
           customStyle={style}
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={63}
         />
         <SkillCard
           icon="fas fa-database fa-5x"
           skill="SQL/noSQL"
           color="#43a84e"
           customStyle={style}
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={68}
         />
         <SkillCard
           icon="fab fa-linux fa-5x"
           skill="LINUX"
           color="#dbdbdb"
           customStyle={style}
-          percent={Math.floor(Math.random() * 100) + 1}
+          percent={79}
         />
       </Grid>
       <div className="adobe">
-        <img src={require('../../assets/Lightroom.svg')} alt="after effects" />
-        <img
-          src={require('../../assets/Illustrator.svg')}
-          alt="after effects"
-        />
-        <img src={require('../../assets/Photoshop.svg')} alt="after effects" />
+        <img src={require('../../assets/Illustrator.svg')} alt="Illustrator" />
+        <img src={require('../../assets/Lightroom.svg')} alt="Lightroom" />
+        <img src={require('../../assets/Photoshop.svg')} alt="Photoshop" />
         <img
           src={require('../../assets/After Effects.svg')}
           alt="after effects"
         />
         <img
           src={require('../../assets/Premiere Pro.svg')}
-          alt="after effects"
+          alt="Premiere Pro"
         />
       </div>
     </section>
