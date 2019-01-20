@@ -239,7 +239,9 @@ body {
   transform: translateY(-1.5rem) scale(1.1);
 }
 
-.skillsSection .skills-heading {
+.skillsSection .skills-heading,
+.portfolio-heading {
+  font-weight: 100;
   display: block;
   font-size: 6rem;
   color: #fff;
@@ -247,4 +249,39 @@ body {
     0 0 40px rgb(12, 195, 219), 0 0 55px #0cc3db, 0 0 75px #0cc3db;
   text-align: center;
   margin-bottom: 5rem;
+}
+
+.portfolio-section {
+  padding: 25rem 0;
+}
+.portfolio-section .project-item h3 {
+  text-align: center;
+}
+
+.portfolio-section .project-item .project-card {
+  perspective: 100rem;
+  -moz-perspective: 100rem;
+  background-color: #0cc3db;
+  height: 25rem;
+  width: 35rem;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+.project-card .card-side {
+  background-color: #1d976c;
+  height: 25rem;
+  width: 35rem;
+  transition: all 1s;
+}
+
+.portfolio-section .project-item .project-card:hover,
+.card-side {
+  transform: rotateY(180deg);
+}
+
+.portfolio-section .card-side .card-side-front {
+}
+
+.portfolio-section .card-side .card-side-back {
 }

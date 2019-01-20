@@ -4,6 +4,7 @@ import Aux from '../hoc/auxilary';
 import About from './aboutSection/about';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Skills from '../components/skillsSection/skillsSection';
+import Portfolio from '../components/portfolioSection/portfolio';
 
 const theme = createMuiTheme({
   palette: {
@@ -20,6 +21,7 @@ class App extends Component {
           <Header />
           <About />
           <Skills />
+          <Portfolio />
         </Aux>
       </MuiThemeProvider>
     );
