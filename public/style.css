@@ -258,30 +258,47 @@ body {
   text-align: center;
 }
 
-.portfolio-section .project-item .project-card {
+.portfolio-section .project-container {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-section .project-item {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
   perspective: 100rem;
-  -moz-perspective: 100rem;
-  background-color: #0cc3db;
-  height: 25rem;
-  width: 35rem;
-  margin: 0 auto;
-  transition: all 1s;
+  width: 40rem;
+  height: 35rem;
 }
 
-.project-card .card-side {
-  background-color: #1d976c;
-  height: 25rem;
-  width: 35rem;
-  transition: all 1s;
+.portfolio-section .project-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 
-.portfolio-section .project-item .project-card:hover,
-.card-side {
+.portfolio-section .project-item:hover .project-card {
   transform: rotateY(180deg);
 }
 
-.portfolio-section .card-side .card-side-front {
+.portfolio-section .card-side-front,
+.portfolio-section .card-side-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
-.portfolio-section .card-side .card-side-back {
+.portfolio-section .card-side-back {
+  background-color: violet;
+  transform: rotateY(180deg);
+}
+
+.portfolio-section .front-card {
+  width: 100%;
+  height: 100%;
 }
