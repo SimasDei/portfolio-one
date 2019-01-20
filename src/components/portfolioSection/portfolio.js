@@ -3,6 +3,19 @@ import Grid from '@material-ui/core/Grid';
 import Typed from 'react-typed';
 import Project from './project';
 
+const websites = {
+  natours: {
+    title: 'Natours',
+    description: 'Advanced SASS implementation',
+    img: require('../../assets/natours.PNG')
+  },
+  bookaroo: {
+    title: 'Bookaroo',
+    description: 'Mongodb React Express Node full stack application',
+    img: require('../../assets/bookaroo.png')
+  }
+};
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="portfolio-section">
@@ -20,10 +33,26 @@ const Portfolio = () => {
         className="portfolio-container"
         direction="row"
       >
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        <Project
+          title={websites.natours.title}
+          description={websites.natours.description}
+          image={websites.natours.img}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+        />
+        <Project
+          title={websites.natours.title}
+          description={websites.natours.description}
+          image={require('../../assets/natoursToo.png')}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={require('../../assets/bookarooToo.png')}
+        />
       </Grid>
     </section>
   );
