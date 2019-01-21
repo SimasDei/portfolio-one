@@ -5,6 +5,8 @@
 
   --text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   --box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  --text-neon: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #0cc3db, 0 0 20px #0cc3db,
+    0 0 30px rgb(12, 195, 219), 0 0 45px #0cc3db, 0 0 55px #0cc3db;
 }
 
 html {
@@ -131,6 +133,7 @@ body {
 }
 
 .aboutSection .paragraph {
+  text-align: center;
   font-size: 1.6rem;
   padding: 1rem;
 }
@@ -346,11 +349,12 @@ body {
   position: relative;
   background-image: linear-gradient(
     to right bottom,
-    rgba(29, 151, 108, 0.5),
-    rgba(10, 154, 173, 0.5)
+    rgba(29, 151, 108, 0.8),
+    rgba(10, 154, 173, 0.8)
   );
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+  box-shadow: var(--box-shadow);
 }
 
 .stats-section .bg-video {
@@ -360,7 +364,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.3;
   overflow: hidden;
 }
 
@@ -387,6 +391,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  align-items: center;
 }
 
 .stats-section .stats-column {
@@ -399,6 +404,43 @@ body {
 .stats-section .stats-column img {
   margin-top: 8px;
   vertical-align: middle;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  transition: all 0.5s;
+}
+
+.stats-section .stats-column img:hover {
+  transform: translateY(-1.5rem) scale(1.2);
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.stats-section .stats-column img:hover + .course-link {
+  display: block;
+}
+
+.stats-section .stats-column .course-link:hover {
+  display: block;
+}
+
+.stats-section .course-item {
+  position: relative;
+}
+
+.stats-section .course-item .course-link {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  text-shadow: var(--text-neon);
+  display: none;
+}
+
+.stats-section .course-item .course-title {
+  text-shadow: var(--text-neon);
+  position: absolute;
+  left: 35%;
+  top: 15%;
 }
 
 @media screen and (max-width: 800px) {
