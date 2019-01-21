@@ -46,6 +46,13 @@
       $(document).ready(function() {
         $('.modal').modal();
       });
+
+      // Four images side by side
+      $(document).ready(function() {
+        for (let i = 0; i < $('.stats-column').length; i++) {
+          $('.stats-column')[1].style.flex = '25%';
+        }
+      });
     </script>
   </body>
 </html>

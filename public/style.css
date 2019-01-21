@@ -344,14 +344,13 @@ body {
 
 .stats-section {
   position: relative;
-  padding: 25rem 5rem;
   background-image: linear-gradient(
     to right bottom,
     rgba(29, 151, 108, 0.5),
     rgba(10, 154, 173, 0.5)
   );
-  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
-  clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
+  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
 }
 
 .stats-section .bg-video {
@@ -373,4 +372,51 @@ body {
 
 .stats-heading {
   margin-bottom: 5rem;
+}
+
+.stats-section .stats-container {
+  box-sizing: border-box;
+  padding: 15rem 0;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.stats-section .stats-row {
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.stats-section .stats-column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.stats-section .stats-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .stats-section {
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .stats-section .stats-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .stats-section .stats-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
