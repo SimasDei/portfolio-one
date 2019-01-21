@@ -38,6 +38,7 @@ const Project = props => {
                   image={props.fsImage}
                   title={props.description}
                 />
+                <i className="modal-search-icon fas fa-search-plus fa-3x" />
               </CardActionArea>
 
               <CardContent style={{ textAlign: 'center' }}>

@@ -317,7 +317,24 @@ body {
   width: 100%;
 }
 
+.portfolio-section .project-container .card-back-image {
+  transition: all 0.5s;
+}
+
 .portfolio-section .project-container .card-back-image:hover {
   -webkit-filter: blur(1px);
   filter: blur(1px);
+}
+
+.card-back-image:hover + .modal-search-icon,
+.modal-search-icon:hover {
+  visibility: visible;
+}
+
+.modal-search-icon {
+  visibility: hidden;
+  position: absolute;
+  top: 41%;
+  color: #424242;
+  left: 44%;
 }
