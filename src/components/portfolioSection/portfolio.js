@@ -5,6 +5,7 @@ import Project from './project';
 
 const websites = {
   natours: {
+    modalId: 'modal1',
     title: 'Natours',
     description: 'Advanced SASS implementation',
     github: 'https://github.com/SimasDei/udemy-css-one',
@@ -12,6 +13,7 @@ const websites = {
     fsimage: require('../../assets/fullWebScreens/natours-fullScreen.png')
   },
   bookaroo: {
+    modalId: 'modal2',
     title: 'Bookaroo',
     description: 'Mongodb React Express Node full stack application',
     github: 'https://github.com/SimasDei/bookaroo-client',
@@ -43,6 +45,7 @@ const Portfolio = () => {
           image={websites.natours.img}
           fsImage={websites.natours.fsimage}
           github={websites.natours.github}
+          modalId={websites.natours.modalId}
         />
         <Project
           title={websites.bookaroo.title}
@@ -50,6 +53,47 @@ const Portfolio = () => {
           image={websites.bookaroo.img}
           fsImage={websites.bookaroo.fsimage}
           github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
+        />
+        <Project
+          title={websites.bookaroo.title}
+          description={websites.bookaroo.description}
+          image={websites.bookaroo.img}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
+          modalId={websites.bookaroo.modalId}
         />
       </Grid>
     </section>

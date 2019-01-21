@@ -312,3 +312,12 @@ body {
 .portfolio-section .github-icon:hover {
   color: #51bef5;
 }
+
+.portfolio-section .project-container .fs-image {
+  width: 100%;
+}
+
+.portfolio-section .project-container .card-back-image:hover {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}

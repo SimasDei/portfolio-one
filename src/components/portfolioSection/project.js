@@ -3,8 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-// import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
+import { CardActionArea } from '@material-ui/core';
 
 const Project = props => {
   return (
@@ -26,11 +26,20 @@ const Project = props => {
           </div>
           <div className="card-side-back">
             <Card className="front-card">
-              <CardMedia
-                image={props.fsImage}
-                title="Please go away"
-                style={{ height: '20rem' }}
-              />
+              <CardActionArea
+                href={`#${props.modalId}`}
+                className="modal-trigger"
+              >
+                <CardMedia
+                  className="card-back-image"
+                  style={{
+                    height: '20rem'
+                  }}
+                  image={props.fsImage}
+                  title={props.description}
+                />
+              </CardActionArea>
+
               <CardContent style={{ textAlign: 'center' }}>
                 <CardActions>
                   <div style={{ margin: '-2rem auto auto auto' }}>
@@ -47,6 +56,15 @@ const Project = props => {
               </CardContent>
             </Card>
           </div>
+        </div>
+      </div>
+      <div id={props.modalId} className="modal">
+        <div className="modal-content">
+          <img
+            src={props.fsImage}
+            alt={props.description}
+            className="fs-image"
+          />
         </div>
       </div>
     </Grid>
