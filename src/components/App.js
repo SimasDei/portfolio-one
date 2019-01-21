@@ -6,6 +6,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Skills from '../components/skillsSection/skillsSection';
 import Portfolio from '../components/portfolioSection/portfolio';
 import StatsSection from '../components/statsSection/statsSection';
+import Navigation from '../components/navigation/navigation';
 
 const theme = createMuiTheme({
   palette: {
@@ -19,6 +20,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <Aux>
+          <Navigation />
           <Header />
           <About />
           <Skills />
