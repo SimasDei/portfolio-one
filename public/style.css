@@ -46,6 +46,26 @@ body {
   width: 100%;
 }
 
+.navigation .navigation-checkbox:checked + .navigation-button .navigation-icon {
+  background-color: transparent;
+}
+
+.navigation
+  .navigation-checkbox:checked
+  + .navigation-button
+  .navigation-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.navigation
+  .navigation-checkbox:checked
+  + .navigation-button
+  .navigation-icon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
 .navigation .navigation-button {
   background-color: aliceblue;
   height: 7rem;
@@ -57,6 +77,16 @@ body {
   border-radius: 50%;
   z-index: 1002;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
+  text-align: center;
+  cursor: pointer;
+}
+
+.navigation .navigation-button:hover .navigation-icon::before {
+  top: -1.2rem;
+}
+
+.navigation .navigation-button:hover .navigation-icon::after {
+  top: 1.2rem;
 }
 
 .navigation .navigation-background {
@@ -122,6 +152,37 @@ body {
   background-position: 100%;
   transform: translateX(2rem);
 }
+
+.navigation .navigation-icon {
+  margin-top: 3.5rem;
+  position: relative;
+}
+
+.navigation .navigation-icon,
+.navigation .navigation-icon::before,
+.navigation .navigation-icon::after {
+  width: 3rem;
+  height: 3px;
+  background-color: #424242;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.navigation .navigation-icon::before,
+.navigation .navigation-icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.navigation .navigation-icon::before {
+  top: -0.8rem;
+}
+
+.navigation .navigation-icon::after {
+  top: 0.8rem;
+}
+
 #gatsbyVideo {
   position: absolute;
   right: 0;

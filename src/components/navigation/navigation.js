@@ -1,33 +1,41 @@
 import React from 'react';
 
 const navigation = () => {
+  let checked = () => {
+    let checkbox = document.getElementById('navi-toggle');
+
+    if (checkbox.checked) {
+      return (checkbox.checked = false);
+    }
+  };
+
   return (
     <div className="navigation">
       <input type="checkbox" className="navigation-checkbox" id="navi-toggle" />
       <label className="navigation-button" htmlFor="navi-toggle">
-        MENU
+        <span className="navigation-icon"> </span>
       </label>
       <div className="navigation-background"> </div>
 
       <div className="navigation-nav">
         <ul className="navigation-list">
           <li className="navigation-item">
-            <a href="#about" className="navigation-link">
+            <a onClick={checked} href="#about" className="navigation-link">
               About
             </a>
           </li>
           <li className="navigation-item">
-            <a href="#skills" className="navigation-link">
+            <a onClick={checked} href="#skills" className="navigation-link">
               skills
             </a>
           </li>
           <li className="navigation-item">
-            <a href="#stats" className="navigation-link">
+            <a onClick={checked} href="#stats" className="navigation-link">
               stats
             </a>
           </li>
           <li className="navigation-item">
-            <a href="#top" className="navigation-link">
+            <a onClick={checked} href="#top" className="navigation-link">
               top
             </a>
           </li>
