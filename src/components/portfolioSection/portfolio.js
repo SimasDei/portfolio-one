@@ -7,12 +7,16 @@ const websites = {
   natours: {
     title: 'Natours',
     description: 'Advanced SASS implementation',
-    img: require('../../assets/natours.PNG')
+    github: 'https://github.com/SimasDei/udemy-css-one',
+    img: require('../../assets/webScreens/natoursToo.png'),
+    fsimage: require('../../assets/fullWebScreens/natours-fullScreen.png')
   },
   bookaroo: {
     title: 'Bookaroo',
     description: 'Mongodb React Express Node full stack application',
-    img: require('../../assets/bookaroo.png')
+    github: 'https://github.com/SimasDei/bookaroo-client',
+    img: require('../../assets/webScreens/bookarooToo.png'),
+    fsimage: require('../../assets/fullWebScreens/bookaroo.png')
   }
 };
 
@@ -37,21 +41,15 @@ const Portfolio = () => {
           title={websites.natours.title}
           description={websites.natours.description}
           image={websites.natours.img}
+          fsImage={websites.natours.fsimage}
+          github={websites.natours.github}
         />
         <Project
           title={websites.bookaroo.title}
           description={websites.bookaroo.description}
           image={websites.bookaroo.img}
-        />
-        <Project
-          title={websites.natours.title}
-          description={websites.natours.description}
-          image={require('../../assets/natoursToo.png')}
-        />
-        <Project
-          title={websites.bookaroo.title}
-          description={websites.bookaroo.description}
-          image={require('../../assets/bookarooToo.png')}
+          fsImage={websites.bookaroo.fsimage}
+          github={websites.bookaroo.github}
         />
       </Grid>
     </section>

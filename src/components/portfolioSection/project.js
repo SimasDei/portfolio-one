@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 // import CardActionArea from '@material-ui/core/CardActionArea';
-// import CardActions from '@material-ui/core/CardActions';
+import CardActions from '@material-ui/core/CardActions';
 
 const Project = props => {
   return (
@@ -25,7 +25,27 @@ const Project = props => {
             </Card>
           </div>
           <div className="card-side-back">
-            <h3>Back</h3>
+            <Card className="front-card">
+              <CardMedia
+                image={props.fsImage}
+                title="Please go away"
+                style={{ height: '20rem' }}
+              />
+              <CardContent style={{ textAlign: 'center' }}>
+                <CardActions>
+                  <div style={{ margin: '-2rem auto auto auto' }}>
+                    <h2>Source Code</h2>
+                    <a
+                      href={props.github}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github fa-3x github-icon" />
+                    </a>
+                  </div>
+                </CardActions>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>

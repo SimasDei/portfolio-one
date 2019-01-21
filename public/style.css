@@ -223,8 +223,8 @@ body {
 .skillsSection .adobe {
   display: flex;
   justify-content: center;
-  padding: 1rem;
   flex-wrap: wrap;
+  margin-top: 5rem;
 }
 
 .skillsSection .adobe img {
@@ -307,4 +307,8 @@ body {
 .portfolio-section .front-card {
   width: 100%;
   height: 100%;
+}
+
+.portfolio-section .github-icon:hover {
+  color: #51bef5;
 }

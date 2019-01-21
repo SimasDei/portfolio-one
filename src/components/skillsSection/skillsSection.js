@@ -81,15 +81,24 @@ export default () => {
         />
       </Grid>
       <div className="adobe">
-        <img src={require('../../assets/Illustrator.svg')} alt="Illustrator" />
-        <img src={require('../../assets/Lightroom.svg')} alt="Lightroom" />
-        <img src={require('../../assets/Photoshop.svg')} alt="Photoshop" />
         <img
-          src={require('../../assets/After Effects.svg')}
+          src={require('../../assets/icons/Illustrator.svg')}
+          alt="Illustrator"
+        />
+        <img
+          src={require('../../assets/icons/Lightroom.svg')}
+          alt="Lightroom"
+        />
+        <img
+          src={require('../../assets/icons/Photoshop.svg')}
+          alt="Photoshop"
+        />
+        <img
+          src={require('../../assets/icons/After Effects.svg')}
           alt="after effects"
         />
         <img
-          src={require('../../assets/Premiere Pro.svg')}
+          src={require('../../assets/icons/Premiere Pro.svg')}
           alt="Premiere Pro"
         />
       </div>
