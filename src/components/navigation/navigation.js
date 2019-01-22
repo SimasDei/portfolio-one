@@ -20,6 +20,11 @@ const navigation = () => {
       <div className="navigation-nav">
         <ul className="navigation-list">
           <li className="navigation-item">
+            <a onClick={checked} href="#top" className="navigation-link">
+              top
+            </a>
+          </li>
+          <li className="navigation-item">
             <a onClick={checked} href="#about" className="navigation-link">
               About
             </a>
@@ -31,12 +36,12 @@ const navigation = () => {
           </li>
           <li className="navigation-item">
             <a onClick={checked} href="#stats" className="navigation-link">
-              stats
+              courses
             </a>
           </li>
           <li className="navigation-item">
-            <a onClick={checked} href="#top" className="navigation-link">
-              top
+            <a onClick={checked} href="#numbers" className="navigation-link">
+              stats
             </a>
           </li>
         </ul>
