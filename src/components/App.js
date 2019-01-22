@@ -9,6 +9,7 @@ import StatsSection from '../components/statsSection/statsSection';
 import Navigation from '../components/navigation/navigation';
 import Numbers from '../components/numbers/numbers';
 import Certificates from '../components/certificates/certificates';
+import Footer from '../components/footer/footer';
 
 const theme = createMuiTheme({
   palette: {
@@ -30,6 +31,7 @@ class App extends Component {
           <StatsSection />
           <Numbers />
           <Certificates />
+          <Footer />
         </Aux>
       </MuiThemeProvider>
     );

@@ -44,6 +44,20 @@ const navigation = () => {
               stats
             </a>
           </li>
+          <li className="navigation-item">
+            <a
+              onClick={checked}
+              href="#certificates"
+              className="navigation-link"
+            >
+              certificates
+            </a>
+          </li>
+          <li className="navigation-item">
+            <a onClick={checked} href="#footer" className="navigation-link">
+              contacts
+            </a>
+          </li>
         </ul>
       </div>
     </div>
