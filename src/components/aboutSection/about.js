@@ -31,17 +31,18 @@ export default () => {
               Very lucky to have found what I truly love doing.
             </h3>
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae modi
-              fuga earum perspiciatis numquam ut voluptas distinctio, beatae
-              culpa porro officiis tempora sint eveniet sapiente voluptatum
-              voluptatem nesciunt minima corrupti?
+              You know, you truly enjoy something, when you begin getting angry
+              when there aren't enough hours in the day to keep working at it.
             </p>
 
             <p className="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-              placeat facilis! Neque unde molestiae possimus a incidunt harum
-              asperiores, fugiat, quis eum natus deleniti tempora esse
-              voluptates consectetur ipsum cum.
+              Learning and improving my competence brings me happiness, so
+              staying motivated is extremely easy. The more, the better.
+            </p>
+
+            <p className="paragraph">
+              Been coding everyday since I have started. Stopping isn't even
+              remotely a possibility.
             </p>
           </Grid>
         </Grid>

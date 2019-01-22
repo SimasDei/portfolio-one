@@ -259,6 +259,8 @@ body {
   margin-bottom: 8rem;
 }
 .aboutSection .aboutText {
+  margin: 0 auto;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
