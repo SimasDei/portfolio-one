@@ -7,6 +7,7 @@ import Skills from '../components/skillsSection/skillsSection';
 import Portfolio from '../components/portfolioSection/portfolio';
 import StatsSection from '../components/statsSection/statsSection';
 import Navigation from '../components/navigation/navigation';
+import Numbers from '../components/numbers/numbers';
 
 const theme = createMuiTheme({
   palette: {
@@ -26,6 +27,7 @@ class App extends Component {
           <Skills />
           <Portfolio />
           <StatsSection />
+          <Numbers />
         </Aux>
       </MuiThemeProvider>
     );

@@ -14,8 +14,8 @@ export default () => {
         className="skills-heading"
         strings={['SKILLS']}
         loop
-        typeSpeed={80}
-        backSpeed={80}
+        typeSpeed={50}
+        backSpeed={30}
       />
 
       <Grid container className="skillsContainer">

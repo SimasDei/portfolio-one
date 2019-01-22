@@ -69,8 +69,8 @@ const Portfolio = () => {
         className="portfolio-heading"
         strings={['PORTFOLIO']}
         loop
-        typeSpeed={80}
-        backSpeed={80}
+        typeSpeed={50}
+        backSpeed={30}
       />
       <Grid
         container

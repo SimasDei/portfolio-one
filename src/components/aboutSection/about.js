@@ -10,8 +10,8 @@ export default () => {
         <Typed
           className="heading-secondary"
           strings={['A little bit about me.']}
-          typeSpeed={60}
-          backSpeed={70}
+          typeSpeed={50}
+          backSpeed={30}
           loop
         />
         <div className="u-margin-bottom" />

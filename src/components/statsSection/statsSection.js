@@ -90,7 +90,7 @@ const StatsSection = () => {
           className="stats-heading"
           strings={['Courses Completed']}
           typeSpeed={50}
-          backSpeed={40}
+          backSpeed={30}
           loop
         />
       </div>
