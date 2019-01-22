@@ -367,7 +367,8 @@ body {
 }
 .skillsSection .skills-heading,
 .portfolio-heading,
-.stats-heading {
+.stats-heading,
+.cert-heading {
   font-weight: 100;
   display: block;
   font-size: 6rem;
@@ -611,6 +612,40 @@ body {
   color: transparent;
   font-size: 2rem;
   letter-spacing: 1px;
+}
+
+.certificate-section {
+  width: 100%;
+}
+
+.certificate-heading {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2, 5rem;
+  text-align: center;
+  text-shadow: var(--text-neon);
+  margin-bottom: 5rem;
+}
+
+.certificate-section .certificate-item {
+  margin: 5rem auto 0 auto;
+  height: auto;
+  width: 60%;
+  -webkit-box-shadow: inset -1px 16px 20px 1px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: inset -1px 16px 20px 1px rgba(0, 0, 0, 0.53);
+  box-shadow: inset -1px 16px 20px 1px rgba(0, 0, 0, 0.53);
+  border-radius: 3rem;
+}
+
+.certificate-container .certificate-image {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+  filter: grayscale(70%);
+  position: relative;
+  z-index: -2;
 }
 
 @media screen and (max-width: 800px) {
