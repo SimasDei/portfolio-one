@@ -132,9 +132,7 @@ body {
 .navigation .navigation-link:link,
 .navigation .navigation-link:visited {
   display: inline-block;
-  font-size: 3rem;
   font-weight: 300;
-  padding: 1rem 2rem;
   color: #fff;
   text-shadow: var(--text-neon);
   text-decoration: none;
@@ -684,6 +682,7 @@ body {
   margin: 1rem auto;
   text-align: center;
   overflow: hidden;
+  padding: 1rem;
 }
 
 .footer-paragraph {
