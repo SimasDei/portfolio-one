@@ -3,7 +3,7 @@ import React from 'react';
 const certificates = () => {
   return (
     <section id="certificates" className="certificate-section">
-      <h2 className="cert-heading">certificates</h2>
+      <h3 className="stats-heading">certificates</h3>
       <div className="certificate-container">
         <div className="certificate-item">
           <img

@@ -18,7 +18,7 @@ const Project = props => {
                 title="Please go away"
                 style={{ height: '20rem' }}
               />
-              <CardContent>
+              <CardContent style={{ textAlign: 'center' }}>
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
               </CardContent>

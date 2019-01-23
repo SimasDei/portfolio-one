@@ -1,7 +1,4 @@
 import React from 'react';
-// import Grid from '@material-ui/core/Grid';
-import Typed from 'react-typed';
-
 import Aux from '../../hoc/auxilary';
 
 const StatsSection = () => {
@@ -86,13 +83,7 @@ const StatsSection = () => {
   return (
     <Aux>
       <div style={{ minHeight: '20rem', overflow: 'hidden' }}>
-        <Typed
-          className="stats-heading"
-          strings={['Courses Completed']}
-          typeSpeed={50}
-          backSpeed={30}
-          loop
-        />
+        <h3 className="stats-heading">Courses Completed</h3>
       </div>
       <section id="stats" className="stats-section">
         <div className="bg-video">
