@@ -10,13 +10,7 @@ const style = {
 export default () => {
   return (
     <section id="skills" className="skillsSection">
-      <Typed
-        className="skills-heading"
-        strings={['SKILLS']}
-        loop
-        typeSpeed={50}
-        backSpeed={30}
-      />
+      <Typed className="skills-heading" strings={['SKILLS']} />
 
       <Grid container className="skillsContainer">
         <SkillCard

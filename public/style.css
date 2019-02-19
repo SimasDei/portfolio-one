@@ -150,7 +150,7 @@ body {
 .navigation .navigation-link:hover,
 .navigation .navigation-link:active {
   background-position: 100%;
-  transform: translateX(2rem);
+  transform: translateX(0.5rem);
 }
 
 .navigation .navigation-icon {
@@ -234,7 +234,7 @@ body {
   padding: 5rem 0;
 }
 .aboutSection .aboutPaper {
-  min-height: 50rem;
+  min-height: 60rem;
   max-width: 90vw;
   margin: auto;
 }
@@ -585,8 +585,9 @@ body {
 
 .square-item .square-icon {
   position: absolute;
-  left: 40%;
-  top: -20%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .square-item .square-icon i {

@@ -31,7 +31,7 @@ const footer = () => {
             <p className="footer-paragraph">github.com/SimasDei</p>
           </li>
           <li className="footer-item">
-            <i className="footer-icon fas fa-envelope-open   fa-3x" />
+            <i className="footer-icon fas fa-envelope-open fa-3x" />
             <a
               rel="noopener noreferrer"
               className="footer-link"
@@ -40,6 +40,17 @@ const footer = () => {
               email
             </a>
             <p className="footer-paragraph">simas@simas-dei.com</p>
+          </li>
+          <li className="footer-item">
+            <i className="footer-icon fas fa-phone fa-3x" />
+            <a
+              rel="noopener noreferrer"
+              className="footer-link"
+              href="#contacts"
+            >
+              Phone
+            </a>
+            <p className="footer-paragraph">+37066366218</p>
           </li>
         </ul>
       </div>
