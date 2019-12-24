@@ -32,7 +32,7 @@
     "node": "13.3.0",
     "npm": "6.13.1"
   },
-  "homepage": "http://SimasDei.github.io/portfolio-one",
+  "homepage": "https://simas-dei.com",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
