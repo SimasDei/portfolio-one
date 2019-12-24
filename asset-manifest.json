@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.81ca9fd5.chunk.js",
-    "main.js.map": "/static/js/main.81ca9fd5.chunk.js.map",
+    "main.js": "/static/js/main.c4e44fcb.chunk.js",
+    "main.js.map": "/static/js/main.c4e44fcb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4425d5e.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4425d5e.js.map",
     "static/js/2.bb909a30.chunk.js": "/static/js/2.bb909a30.chunk.js",
     "static/js/2.bb909a30.chunk.js.map": "/static/js/2.bb909a30.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e1f47f72a357b39daa8cc707b603a85.js": "/precache-manifest.3e1f47f72a357b39daa8cc707b603a85.js",
+    "precache-manifest.9ed75ef71c30eb0af6a0d87f46721b12.js": "/precache-manifest.9ed75ef71c30eb0af6a0d87f46721b12.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.bb909a30.chunk.js.LICENSE": "/static/js/2.bb909a30.chunk.js.LICENSE",
     "static/media/After Effects.svg": "/static/media/After Effects.b9a250bf.svg",
@@ -50,6 +50,6 @@
   "entrypoints": [
     "static/js/runtime-main.a4425d5e.js",
     "static/js/2.bb909a30.chunk.js",
-    "static/js/main.81ca9fd5.chunk.js"
+    "static/js/main.c4e44fcb.chunk.js"
   ]
 }
