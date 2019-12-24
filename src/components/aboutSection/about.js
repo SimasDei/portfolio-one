@@ -5,13 +5,19 @@ import Grid from '@material-ui/core/Grid';
 
 import ProfileImage from '../../assets/profile.jpeg';
 
+const typedConfig = {
+  typeSpeed: 40,
+  backSpeed: 50,
+  loop: true,
+  strings: ['A little bit about me.'],
+};
+
 export default () => {
   return (
     <section id='about' className='aboutSection'>
       <Paper elevation={20} className='aboutPaper'>
-        <Typed className='heading-secondary' strings={['A little bit about me.']} />
+        <Typed className='heading-secondary' {...typedConfig} />
         <div className='u-margin-bottom' />
-
         <Grid container={true} spacing={24} alignItems={'center'}>
           <Grid item xs={12} sm={12} md={6}>
             <div className='composition'>
