@@ -1,0 +1,35 @@
+.aboutSection .u-margin-bottom {
+  margin-bottom: 8rem;
+}
+.aboutSection .aboutText {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutSection .small-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.aboutSection .paragraph {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+.aboutSection .paragraph:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.aboutSection {
+  margin-top: 110vh;
+  padding: 5rem 0;
+}
+.aboutSection .aboutPaper {
+  min-height: 60rem;
+  max-width: 90vw;
+  margin: auto;
+}

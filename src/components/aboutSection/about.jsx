@@ -5,6 +5,8 @@ import Grid from '@material-ui/core/Grid';
 
 import ProfileImage from '../../assets/profile.jpeg';
 
+import './about.scss';
+
 const typedConfig = {
   typeSpeed: 40,
   backSpeed: 50,
@@ -18,7 +20,7 @@ export default () => {
       <Paper elevation={20} className='aboutPaper'>
         <Typed className='heading-secondary' {...typedConfig} />
         <div className='u-margin-bottom' />
-        <Grid container={true} spacing={24} alignItems={'center'}>
+        <Grid container={true} spacing={8} alignItems={'center'}>
           <Grid item xs={12} sm={12} md={6}>
             <div className='composition'>
               <img src={ProfileImage} alt='profile' className='composition-photo' />

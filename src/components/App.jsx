@@ -3,19 +3,19 @@ import Header from './header/header';
 import Aux from '../hoc/auxilary';
 import About from './aboutSection/about';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import Skills from '../components/skillsSection/skillsSection';
-import Portfolio from '../components/portfolioSection/portfolio';
-import StatsSection from '../components/statsSection/statsSection';
-import Navigation from '../components/navigation/navigation';
-import Numbers from '../components/numbers/numbers';
-import Certificates from '../components/certificates/certificates';
-import Footer from '../components/footer/footer';
+import Skills from './skillsSection/skillsSection';
+import Portfolio from './portfolioSection/portfolio';
+import StatsSection from './statsSection/statsSection';
+import Navigation from './navigation/navigation';
+import Numbers from './numbers/numbers';
+import Certificates from './certificates/certificates';
+import Footer from './footer/footer';
 
 const theme = createMuiTheme({
   palette: {
-    type: 'dark'
+    type: 'dark',
   },
-  typography: { useNextVariants: true }
+  typography: { useNextVariants: true },
 });
 
 class App extends Component {

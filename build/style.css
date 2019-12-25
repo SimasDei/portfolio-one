@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
 
   background-color: rgb(27, 24, 24);
   color: white;
@@ -52,18 +52,12 @@ body {
   background-color: transparent;
 }
 
-.navigation
-  .navigation-checkbox:checked
-  + .navigation-button
-  .navigation-icon::before {
+.navigation .navigation-checkbox:checked + .navigation-button .navigation-icon::before {
   top: 0;
   transform: rotate(45deg);
 }
 
-.navigation
-  .navigation-checkbox:checked
-  + .navigation-button
-  .navigation-icon::after {
+.navigation .navigation-checkbox:checked + .navigation-button .navigation-icon::after {
   top: 0;
   transform: rotate(-45deg);
 }
@@ -229,7 +223,7 @@ body {
 .titleMessage .heading .sub {
   font-size: 2.5rem;
 }
-.aboutSection {
+/* .aboutSection {
   margin-top: 110vh;
   padding: 5rem 0;
 }
@@ -237,7 +231,7 @@ body {
   min-height: 60rem;
   max-width: 90vw;
   margin: auto;
-}
+} */
 .heading-secondary,
 .footer-heading {
   display: block;
@@ -246,11 +240,7 @@ body {
   text-align: center;
   font-weight: 200;
   text-transform: uppercase;
-  background-image: linear-gradient(
-    to right,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -258,6 +248,8 @@ body {
   transition: all 0.2s;
   text-shadow: var(--text-shadow);
 }
+/* 
+
 .aboutSection .u-margin-bottom {
   margin-bottom: 8rem;
 }
@@ -283,7 +275,7 @@ body {
 }
 .aboutSection .paragraph:not(:last-child) {
   margin-bottom: 3rem;
-}
+} */
 .composition .composition-photo {
   display: block;
   margin: 0 auto;
@@ -339,11 +331,7 @@ body {
   color: transparent;
   margin-bottom: 0.5rem;
   display: inline-block;
-  background-image: linear-gradient(
-    to left,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to left, var(--secondary-color), var(--primary-color));
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -425,11 +413,7 @@ body {
   backface-visibility: hidden;
 }
 .portfolio-section .card-side-back {
-  background-image: linear-gradient(
-    to left,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to left, var(--secondary-color), var(--primary-color));
   transform: rotateY(180deg);
 }
 .portfolio-section .front-card {
@@ -591,11 +575,7 @@ body {
 }
 
 .square-item .square-icon i {
-  background-image: linear-gradient(
-    to right,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -610,11 +590,7 @@ body {
 
 .square-item .square-content h3 {
   text-transform: uppercase;
-  background-image: linear-gradient(
-    to right,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -622,7 +598,7 @@ body {
   letter-spacing: 1px;
 }
 
-.certificate-section {
+/* .certificate-section {
   width: 100%;
 }
 
@@ -654,7 +630,7 @@ body {
   filter: grayscale(70%);
   position: relative;
   z-index: -2;
-}
+} */
 
 .footer {
   margin-top: 15rem;
@@ -713,22 +689,14 @@ body {
   display: block;
   margin-bottom: 2.5rem;
   text-transform: uppercase;
-  background-image: linear-gradient(
-    to right,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .footer-copyright {
-  background-image: linear-gradient(
-    to left,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background-image: linear-gradient(to left, var(--secondary-color), var(--primary-color));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

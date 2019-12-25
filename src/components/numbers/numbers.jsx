@@ -7,42 +7,42 @@ const numbers = () => {
     {
       name: 'Academic Hours',
       icon: 'fas fa-graduation-cap fa-3x',
-      number: '1140'
+      number: '1140',
     },
     {
       name: 'Projects',
       icon: 'fas fa-globe-europe fa-3x',
-      number: '31+'
+      number: '31+',
     },
     {
       name: 'Certificates',
       icon: 'fas fa-certificate fa-3x',
-      number: '11+'
+      number: '11+',
     },
     {
       name: 'Coding',
       icon: 'fas fa-hourglass-half fa-3x',
-      number: '24/7'
-    }
+      number: '24/7',
+    },
   ];
 
   return (
-    <section id="numbers" className="numbers-section">
+    <section id='numbers' className='numbers-section'>
       <Paper style={{ height: '100%', width: '90%', margin: '0 auto' }}>
-        <h2 className="heading-secondary">statistics</h2>
+        <h2 className='heading-secondary'>statistics</h2>
         <Grid
           container
-          spacing={0}
-          alignItems="center"
-          justify="center"
+          spacing={1}
+          alignItems='center'
+          justify='center'
           style={{ minHeight: '25rem' }}
         >
           {items.map(item => (
             <Grid key={item.number} item xs>
-              <div className="square-item">
-                <div className="square-inner-container">
-                  <div className="square-content">
-                    <div className="square-icon">
+              <div className='square-item'>
+                <div className='square-inner-container'>
+                  <div className='square-content'>
+                    <div className='square-icon'>
                       <i className={item.icon} />
                     </div>
                     <h2>{item.number}</h2>
