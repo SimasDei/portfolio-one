@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.c4e44fcb.chunk.js",
-    "main.js.map": "/static/js/main.c4e44fcb.chunk.js.map",
+    "main.css": "/static/css/main.b8117b91.chunk.css",
+    "main.js": "/static/js/main.d64bc99e.chunk.js",
+    "main.js.map": "/static/js/main.d64bc99e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4425d5e.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4425d5e.js.map",
-    "static/js/2.bb909a30.chunk.js": "/static/js/2.bb909a30.chunk.js",
-    "static/js/2.bb909a30.chunk.js.map": "/static/js/2.bb909a30.chunk.js.map",
+    "static/js/2.1a1b4816.chunk.js": "/static/js/2.1a1b4816.chunk.js",
+    "static/js/2.1a1b4816.chunk.js.map": "/static/js/2.1a1b4816.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9ed75ef71c30eb0af6a0d87f46721b12.js": "/precache-manifest.9ed75ef71c30eb0af6a0d87f46721b12.js",
+    "precache-manifest.271e52f9edebd630c7c3377938c18701.js": "/precache-manifest.271e52f9edebd630c7c3377938c18701.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.bb909a30.chunk.js.LICENSE": "/static/js/2.bb909a30.chunk.js.LICENSE",
+    "static/css/main.b8117b91.chunk.css.map": "/static/css/main.b8117b91.chunk.css.map",
+    "static/js/2.1a1b4816.chunk.js.LICENSE": "/static/js/2.1a1b4816.chunk.js.LICENSE",
     "static/media/After Effects.svg": "/static/media/After Effects.b9a250bf.svg",
     "static/media/Illustrator.svg": "/static/media/Illustrator.6edb1ad6.svg",
     "static/media/Lightroom.svg": "/static/media/Lightroom.2797074e.svg",
@@ -28,6 +30,15 @@
     "static/media/bootstrap-one.png": "/static/media/bootstrap-one.ed4e0189.png",
     "static/media/budget-app.png": "/static/media/budget-app.98df3a03.png",
     "static/media/burger-builder.png": "/static/media/burger-builder.c2df372e.png",
+    "static/media/cert10.jpg": "/static/media/cert10.fa6fee0c.jpg",
+    "static/media/cert11.jpg": "/static/media/cert11.a80314ed.jpg",
+    "static/media/cert3.jpg": "/static/media/cert3.ffc5ddae.jpg",
+    "static/media/cert4.jpg": "/static/media/cert4.1d036ae4.jpg",
+    "static/media/cert5.jpg": "/static/media/cert5.fba210a9.jpg",
+    "static/media/cert6.jpg": "/static/media/cert6.edb46de7.jpg",
+    "static/media/cert7.jpg": "/static/media/cert7.fb188190.jpg",
+    "static/media/cert8.jpg": "/static/media/cert8.19c82b3a.jpg",
+    "static/media/cert9.jpg": "/static/media/cert9.cfdd6184.jpg",
     "static/media/github-app.png": "/static/media/github-app.c989cca1.png",
     "static/media/hostinger-front.png": "/static/media/hostinger-front.8806b340.png",
     "static/media/js-course-one.PNG": "/static/media/js-course-one.6a96dae8.PNG",
@@ -49,7 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4425d5e.js",
-    "static/js/2.bb909a30.chunk.js",
-    "static/js/main.c4e44fcb.chunk.js"
+    "static/js/2.1a1b4816.chunk.js",
+    "static/css/main.b8117b91.chunk.css",
+    "static/js/main.d64bc99e.chunk.js"
   ]
 }
