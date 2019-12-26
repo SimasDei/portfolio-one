@@ -35,7 +35,7 @@ body {
   padding: 0;
 }
 
-.navigation .navigation-checkbox {
+/* .navigation .navigation-checkbox {
   display: none;
 }
 
@@ -175,7 +175,7 @@ body {
 
 .navigation .navigation-icon::after {
   top: 0.8rem;
-}
+} */
 
 #gatsbyVideo {
   position: absolute;
