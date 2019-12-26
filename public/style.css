@@ -632,7 +632,7 @@ body {
   z-index: -2;
 } */
 
-.footer {
+/* .footer {
   margin-top: 15rem;
   padding: 5rem 0;
   background-color: #424242;
@@ -701,7 +701,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
-}
+} */
 
 @media screen and (max-width: 800px) {
   .stats-section {
