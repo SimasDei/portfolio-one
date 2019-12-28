@@ -1,23 +1,23 @@
-import React from 'react';
-import ImageGallery from 'react-image-gallery';
+import React from "react";
+import ImageGallery from "react-image-gallery";
 
-import data from 'components/certificates/certificates.data';
+import data from "components/certificates/certificates.data";
 
-import './certificates.scss';
+import "./certificates.scss";
 
 const certificates = data.map(certificate => ({
   original: certificate.image,
   thumbnail: certificate.image,
-  originalClass: 'certificate-image',
-  originlTitle: certificate.title,
+  originalClass: "certificate-image",
+  originlTitle: certificate.title
 }));
 
 const Certificates = () => {
   return (
-    <section id='certificates' className='certificate-section'>
-      <h3 className='stats-heading'>certificates</h3>
-      <div className='certificate-item'>
-          <ImageGallery items={certificates} originalCla={'certificate-image'} />
+    <section id="certificates" className="certificate-section">
+      <h3 className="stats-heading">certificates</h3>
+      <div className="certificate-item">
+        <ImageGallery items={certificates} />
       </div>
     </section>
   );
