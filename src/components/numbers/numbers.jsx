@@ -2,30 +2,9 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
-const numbers = () => {
-  const items = [
-    {
-      name: 'Academic Hours',
-      icon: 'fas fa-graduation-cap fa-3x',
-      number: '1140',
-    },
-    {
-      name: 'Projects',
-      icon: 'fas fa-globe-europe fa-3x',
-      number: '31+',
-    },
-    {
-      name: 'Certificates',
-      icon: 'fas fa-certificate fa-3x',
-      number: '11+',
-    },
-    {
-      name: 'Coding',
-      icon: 'fas fa-hourglass-half fa-3x',
-      number: '24/7',
-    },
-  ];
+import items from './numbers.data';
 
+const numbers = () => {
   return (
     <section id='numbers' className='numbers-section'>
       <Paper style={{ height: '100%', width: '90%', margin: '0 auto' }}>
