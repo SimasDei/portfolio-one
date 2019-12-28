@@ -354,7 +354,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.numbers-section {
+/* .numbers-section {
   padding: 15rem 0;
 }
 
@@ -419,7 +419,7 @@ body {
   color: transparent;
   font-size: 2rem;
   letter-spacing: 1px;
-}
+} */
 
 @media screen and (max-width: 800px) {
   .stats-section {
