@@ -101,41 +101,54 @@ export const data = [
       fsimage: require('../../assets/fullWebScreens/natours-fullScreen.png'),
     },
   },
+  {
+    project: 'bookaroo',
+    data: {
+      modalId: 'modal2',
+      title: 'Bookaroo',
+      description: 'Mongodb React Express Node full stack application',
+      github: 'https://github.com/SimasDei/bookaroo-client',
+      img: require('../../assets/webScreens/bookarooToo.png'),
+      fsimage: require('../../assets/fullWebScreens/bookaroo.png'),
+    },
+  },
+  {
+    project: 'bootstrap4',
+    data: {
+      modalId: 'modal2',
+      title: 'Bookaroo',
+      description: 'Mongodb React Express Node full stack application',
+      github: 'https://github.com/SimasDei/bookaroo-client',
+      img: require('../../assets/webScreens/bookarooToo.png'),
+      fsimage: require('../../assets/fullWebScreens/bookaroo.png'),
+    },
+  },
+  {
+    project: 'burgerBuilder',
+    data: {
+      modalId: 'modal4',
+      title: 'Burger Builder',
+      description: 'Project made with the MERN stack',
+      github: 'https://github.com/SimasDei/udemy-react-burger-builder',
+      img: require('../../assets/webScreens/burger-builder.png'),
+      fsimage: require('../../assets/fullWebScreens/burger-builder.png'),
+    },
+  },
+  {
+    project: 'meanStack',
+    data: {
+      modalId: 'modal5',
+      title: 'MEAN stack',
+      description: 'Made with Angular Node Express and MongoDB',
+      github: 'https://github.com/SimasDei/MEAN-stack-one',
+      img: require('../../assets/webScreens/MEAN-stack-one.png'),
+      fsimage: require('../../assets/fullWebScreens/MEAN-stack-one.png'),
+    },
+  },
 ];
 
 // {
-//   natours: {
-//     modalId: 'modal1',
-//     title: 'Natours',
-//     description: 'Advanced SASS implementation',
-//     github: 'https://github.com/SimasDei/udemy-css-one',
-//     img: require('../../assets/webScreens/natours.PNG'),
-//     fsimage: require('../../assets/fullWebScreens/natours-fullScreen.png'),
-//   },
-//   bookaroo: {
-//     modalId: 'modal2',
-//     title: 'Bookaroo',
-//     description: 'Mongodb React Express Node full stack application',
-//     github: 'https://github.com/SimasDei/bookaroo-client',
-//     img: require('../../assets/webScreens/bookarooToo.png'),
-//     fsimage: require('../../assets/fullWebScreens/bookaroo.png'),
-//   },
-//   bootstrap4: {
-//     modalId: 'modal3',
-//     title: 'Bootstrap',
-//     description: 'Made with Bootstrap v4.1',
-//     github: 'https://github.com/SimasDei/bootstrap-one',
-//     img: require('../../assets/webScreens/bootstrap-one.png'),
-//     fsimage: require('../../assets/fullWebScreens/bootstrap-one.png'),
-//   },
-//   burgerBuilder: {
-//     modalId: 'modal4',
-//     title: 'Burger Builder',
-//     description: 'Project made with the MERN stack',
-//     github: 'https://github.com/SimasDei/udemy-react-burger-builder',
-//     img: require('../../assets/webScreens/burger-builder.png'),
-//     fsimage: require('../../assets/fullWebScreens/burger-builder.png'),
-//   },
+
 //   meanStack: {
 //     modalId: 'modal5',
 //     title: 'MEAN stack',
