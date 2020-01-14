@@ -5,6 +5,7 @@ import About from './aboutSection/about';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Skills from './skillsSection/skillsSection';
 import Portfolio from './portfolioSection/portfolio';
+import GithubGrid from './githubSection/GithubGrid';
 import StatsSection from './statsSection/statsSection';
 import Navigation from './navigation/navigation';
 import Numbers from './numbers/numbers';
@@ -28,6 +29,7 @@ class App extends Component {
           <About />
           <Skills />
           <Portfolio />
+          <GithubGrid />
           <StatsSection />
           <Numbers />
           <Certificates />

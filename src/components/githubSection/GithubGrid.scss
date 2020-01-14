@@ -1,8 +1,11 @@
 .git-grid {
   display: flex;
+  flex-direction: column;
   width: 100%;
+  max-width: 860px;
+  margin: 0 auto 15rem auto;
 
   &__container {
-    display: flex;
+    height: 157px;
   }
 }

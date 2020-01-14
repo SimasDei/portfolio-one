@@ -5,10 +5,6 @@ import Project from './project';
 
 import { data } from './portfolio.data';
 
-/**
- * @todo - fix this.
- */
-
 const renderProjects = () =>
   data.map(project => (
     <Project
