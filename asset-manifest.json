@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8117b91.chunk.css",
-    "main.js": "/static/js/main.d64bc99e.chunk.js",
-    "main.js.map": "/static/js/main.d64bc99e.chunk.js.map",
+    "main.css": "/static/css/main.c75bb6bc.chunk.css",
+    "main.js": "/static/js/main.b6e8c4bb.chunk.js",
+    "main.js.map": "/static/js/main.b6e8c4bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4425d5e.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4425d5e.js.map",
-    "static/js/2.1a1b4816.chunk.js": "/static/js/2.1a1b4816.chunk.js",
-    "static/js/2.1a1b4816.chunk.js.map": "/static/js/2.1a1b4816.chunk.js.map",
+    "static/js/2.5f37b645.chunk.js": "/static/js/2.5f37b645.chunk.js",
+    "static/js/2.5f37b645.chunk.js.map": "/static/js/2.5f37b645.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.271e52f9edebd630c7c3377938c18701.js": "/precache-manifest.271e52f9edebd630c7c3377938c18701.js",
+    "precache-manifest.170efb20bb4f299a0480de7127ee1c22.js": "/precache-manifest.170efb20bb4f299a0480de7127ee1c22.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b8117b91.chunk.css.map": "/static/css/main.b8117b91.chunk.css.map",
-    "static/js/2.1a1b4816.chunk.js.LICENSE": "/static/js/2.1a1b4816.chunk.js.LICENSE",
+    "static/css/main.c75bb6bc.chunk.css.map": "/static/css/main.c75bb6bc.chunk.css.map",
+    "static/js/2.5f37b645.chunk.js.LICENSE": "/static/js/2.5f37b645.chunk.js.LICENSE",
     "static/media/After Effects.svg": "/static/media/After Effects.b9a250bf.svg",
     "static/media/Illustrator.svg": "/static/media/Illustrator.6edb1ad6.svg",
     "static/media/Lightroom.svg": "/static/media/Lightroom.2797074e.svg",
@@ -40,6 +40,7 @@
     "static/media/cert8.jpg": "/static/media/cert8.19c82b3a.jpg",
     "static/media/cert9.jpg": "/static/media/cert9.cfdd6184.jpg",
     "static/media/github-app.png": "/static/media/github-app.c989cca1.png",
+    "static/media/github.png": "/static/media/github.28118115.png",
     "static/media/hostinger-front.png": "/static/media/hostinger-front.8806b340.png",
     "static/media/js-course-one.PNG": "/static/media/js-course-one.6a96dae8.PNG",
     "static/media/js-course-two.PNG": "/static/media/js-course-two.a640080e.PNG",
@@ -60,8 +61,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4425d5e.js",
-    "static/js/2.1a1b4816.chunk.js",
-    "static/css/main.b8117b91.chunk.css",
-    "static/js/main.d64bc99e.chunk.js"
+    "static/js/2.5f37b645.chunk.js",
+    "static/css/main.c75bb6bc.chunk.css",
+    "static/js/main.b6e8c4bb.chunk.js"
   ]
 }
