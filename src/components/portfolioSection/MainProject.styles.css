@@ -1,0 +1,23 @@
+.main-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-project__title {
+  color: #fff;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.main-project__laptop {
+}
+
+.main-project__gif {
+}
