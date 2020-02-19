@@ -116,11 +116,11 @@ export const data = [
     project: 'bootstrap4',
     data: {
       modalId: 'modal2',
-      title: 'Bookaroo',
-      description: 'Mongodb React Express Node full stack application',
-      github: 'https://github.com/SimasDei/bookaroo-client',
-      img: require('../../assets/webScreens/bookarooToo.png'),
-      fsimage: require('../../assets/fullWebScreens/bookaroo.png'),
+      title: 'Bootstrap',
+      description: 'Made with Bootstrap v4.1',
+      github: 'https://github.com/SimasDei/bootstrap-one',
+      img: require('../../assets/webScreens/bootstrap-one.png'),
+      fsimage: require('../../assets/fullWebScreens/bootstrap-one.png'),
     },
   },
   {

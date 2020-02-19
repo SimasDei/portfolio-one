@@ -28,12 +28,12 @@ const renderMainProjects = () => {
   const projects = [
     {
       title: 'Mylimiausia',
-      tech: ['Vue', 'PHP', 'mySQL'],
+      tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
       image: mylimiausia,
     },
     {
       title: 'Reflectus',
-      tech: ['Vue', 'PHP', 'mySQL'],
+      tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
       image: reflectus,
     },
   ];
