@@ -8,9 +8,9 @@ import ProfileImage from '../../assets/profile.jpeg';
 import './about.scss';
 
 const typedConfig = {
-  typeSpeed: 40,
-  backSpeed: 50,
-  loop: true,
+  // typeSpeed: 40,
+  // backSpeed: 50,
+  loop: false,
   strings: ['A little bit about me.'],
 };
 
@@ -18,7 +18,8 @@ export default () => {
   return (
     <section id='about' className='aboutSection'>
       <Paper elevation={20} className='aboutPaper'>
-        <Typed className='heading-secondary' {...typedConfig} />
+        {/* <Typed className='heading-secondary' {...typedConfig} /> */}
+        <h2 className='heading-secondary'>A little bit about me</h2>
         <div className='u-margin-bottom' />
         <Grid container={true} spacing={8} alignItems={'center'}>
           <Grid item xs={12} sm={12} md={6}>

@@ -9,7 +9,7 @@ const MainProject = ({ project: { title, tech, image } }) => {
       </div>
       <p className='main-project__icons'>
         {tech.map(icon => (
-          <i class={icon}></i>
+          <i key={icon} className={icon}></i>
         ))}
       </p>
     </div>
