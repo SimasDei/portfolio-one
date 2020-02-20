@@ -1,24 +1,15 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
-import Typed from 'react-typed';
 import Grid from '@material-ui/core/Grid';
 
 import ProfileImage from '../../assets/profile.jpeg';
 
 import './about.scss';
 
-const typedConfig = {
-  // typeSpeed: 40,
-  // backSpeed: 50,
-  loop: false,
-  strings: ['A little bit about me.'],
-};
-
 export default () => {
   return (
     <section id='about' className='aboutSection'>
       <Paper elevation={20} className='aboutPaper'>
-        {/* <Typed className='heading-secondary' {...typedConfig} /> */}
         <h2 className='heading-secondary'>A little bit about me</h2>
         <div className='u-margin-bottom' />
         <Grid container={true} spacing={8} alignItems={'center'}>
