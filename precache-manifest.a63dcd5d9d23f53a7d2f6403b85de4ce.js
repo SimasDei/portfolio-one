@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feda1c98a1300899ce7b264ab972dda1",
+    "revision": "bf95f36d478fb1e2ecae335f266a5b70",
     "url": "/index.html"
   },
   {
-    "revision": "7816846bdd65282abe03",
-    "url": "/static/css/main.c75bb6bc.chunk.css"
+    "revision": "155c44e566a7b905fd73",
+    "url": "/static/css/main.63b8d83f.chunk.css"
   },
   {
-    "revision": "fe9ef45090335386d89d",
-    "url": "/static/js/2.5f37b645.chunk.js"
+    "revision": "122dde1cd162f77d3c84",
+    "url": "/static/js/2.f5d71048.chunk.js"
   },
   {
     "revision": "b0aed88dcae72dcfde4f5b614eb1dda5",
-    "url": "/static/js/2.5f37b645.chunk.js.LICENSE"
+    "url": "/static/js/2.f5d71048.chunk.js.LICENSE"
   },
   {
-    "revision": "7816846bdd65282abe03",
-    "url": "/static/js/main.b6e8c4bb.chunk.js"
+    "revision": "155c44e566a7b905fd73",
+    "url": "/static/js/main.6a1d3a77.chunk.js"
   },
   {
     "revision": "2328f9d78e7e3715bc7e",
@@ -184,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mongo-course.a616750c.PNG"
   },
   {
+    "revision": "89462efbf70946a4770aa068f48a0c40",
+    "url": "/static/media/mylimiausia.89462efb.gif"
+  },
+  {
     "revision": "049b5848843fdf903cae68281f9faabc",
     "url": "/static/media/natours-fullScreen.049b5848.png"
   },
@@ -214,6 +218,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2014507789a7b285787c7853ffb8d6e5",
     "url": "/static/media/react-course-two.20145077.PNG"
+  },
+  {
+    "revision": "d64f77e27374d01a963a31c83811ae90",
+    "url": "/static/media/reflectus--web.d64f77e2.gif"
   },
   {
     "revision": "22c6df7354aa800afacb1d6ffd658f1d",
