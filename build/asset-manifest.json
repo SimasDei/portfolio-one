@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c5b1bf6.chunk.css",
-    "main.js": "/static/js/main.b6e8c4bb.chunk.js",
-    "main.js.map": "/static/js/main.b6e8c4bb.chunk.js.map",
+    "main.css": "/static/css/main.63b8d83f.chunk.css",
+    "main.js": "/static/js/main.6a1d3a77.chunk.js",
+    "main.js.map": "/static/js/main.6a1d3a77.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4425d5e.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4425d5e.js.map",
-    "static/js/2.5f37b645.chunk.js": "/static/js/2.5f37b645.chunk.js",
-    "static/js/2.5f37b645.chunk.js.map": "/static/js/2.5f37b645.chunk.js.map",
+    "static/js/2.f5d71048.chunk.js": "/static/js/2.f5d71048.chunk.js",
+    "static/js/2.f5d71048.chunk.js.map": "/static/js/2.f5d71048.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bba34aef07a28c3d48695ffb2fa07635.js": "/precache-manifest.bba34aef07a28c3d48695ffb2fa07635.js",
+    "precache-manifest.a63dcd5d9d23f53a7d2f6403b85de4ce.js": "/precache-manifest.a63dcd5d9d23f53a7d2f6403b85de4ce.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7c5b1bf6.chunk.css.map": "/static/css/main.7c5b1bf6.chunk.css.map",
-    "static/js/2.5f37b645.chunk.js.LICENSE": "/static/js/2.5f37b645.chunk.js.LICENSE",
+    "static/css/main.63b8d83f.chunk.css.map": "/static/css/main.63b8d83f.chunk.css.map",
+    "static/js/2.f5d71048.chunk.js.LICENSE": "/static/js/2.f5d71048.chunk.js.LICENSE",
     "static/media/After Effects.svg": "/static/media/After Effects.b9a250bf.svg",
     "static/media/Illustrator.svg": "/static/media/Illustrator.6edb1ad6.svg",
     "static/media/Lightroom.svg": "/static/media/Lightroom.2797074e.svg",
@@ -46,6 +46,7 @@
     "static/media/js-course-two.PNG": "/static/media/js-course-two.a640080e.PNG",
     "static/media/materialize-course.PNG": "/static/media/materialize-course.2eba27b7.PNG",
     "static/media/mongo-course.PNG": "/static/media/mongo-course.a616750c.PNG",
+    "static/media/mylimiausia.gif": "/static/media/mylimiausia.89462efb.gif",
     "static/media/natours-fullScreen.png": "/static/media/natours-fullScreen.049b5848.png",
     "static/media/natours.PNG": "/static/media/natours.663ce6b2.PNG",
     "static/media/node-course.PNG": "/static/media/node-course.434f78f2.PNG",
@@ -54,6 +55,7 @@
     "static/media/react-course-one.PNG": "/static/media/react-course-one.3960395b.PNG",
     "static/media/react-course-three.PNG": "/static/media/react-course-three.fb21f4d5.PNG",
     "static/media/react-course-two.PNG": "/static/media/react-course-two.20145077.PNG",
+    "static/media/reflectus--web.gif": "/static/media/reflectus--web.d64f77e2.gif",
     "static/media/sass-course.PNG": "/static/media/sass-course.22c6df73.PNG",
     "static/media/vue-course.PNG": "/static/media/vue-course.9db2a0d4.PNG",
     "static/media/weather-app.png": "/static/media/weather-app.1b07b623.png",
@@ -61,8 +63,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4425d5e.js",
-    "static/js/2.5f37b645.chunk.js",
-    "static/css/main.7c5b1bf6.chunk.css",
-    "static/js/main.b6e8c4bb.chunk.js"
+    "static/js/2.f5d71048.chunk.js",
+    "static/css/main.63b8d83f.chunk.css",
+    "static/js/main.6a1d3a77.chunk.js"
   ]
 }
