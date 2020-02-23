@@ -37,5 +37,15 @@
   margin-bottom: 0.5rem;
   display: inline-block;
   background-image: linear-gradient(to left, #0cc3db, #1d976c);
+  background-clip: text;
   -webkit-background-clip: text;
+}
+
+.mobile-project {
+}
+
+.mobile-project__frame {
+}
+
+.mobile-project__gif {
 }
