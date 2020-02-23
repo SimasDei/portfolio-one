@@ -1,12 +1,12 @@
 import React from 'react';
 
-const MainProject = ({ project: { title, tech, image } }) => {
+const MainProject = ({ project: { title, tech, image, url } }) => {
   return (
     <div className='main-project'>
       <h2 className='main-project__title'>{title}</h2>
-      <div className='main-project__gif'>
+      <a className='main-project__gif' href={url} target='_blank' rel='noopener noreferrer'>
         <img src={image} alt='project animation' />
-      </div>
+      </a>
       <p className='main-project__icons'>
         {tech.map(icon => (
           <i key={icon} className={icon}></i>

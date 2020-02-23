@@ -6,10 +6,12 @@ import Typed from 'react-typed';
 import { data } from './portfolio.data';
 import mylimiausia from '../../assets/projectGifs/mylimiausia.gif';
 import reflectus from '../../assets/projectGifs/reflectus--web.gif';
+import reflectusMob from '../../assets/projectGifs/reflectus--mob.gif';
 import './MainProject.styles.css';
 
 import Project from './project';
 import MainProject from './MainProject';
+import MobileProject from './MobileProject';
 
 const renderProjects = () =>
   data.map(project => (
@@ -30,15 +32,32 @@ const renderMainProjects = () => {
       title: 'Mylimiausia',
       tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
       image: mylimiausia,
+      url: 'https://mylimiausia.lt',
     },
     {
       title: 'Reflectus',
       tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
-      image: reflectus,
+      image: reflectusMob,
+      url: 'https://reflectus.lt',
     },
   ];
 
-  return projects.map(project => <MainProject key={project.title} project={project} />);
+  return projects.map(project => <MainProject key={`main--${project.title}`} project={project} />);
+};
+
+const renderMobileProjects = () => {
+  const projects = [
+    {
+      title: 'Reflectus',
+      tech: ['fab fa-node fa-5x', 'fab fa-react fa-5x'],
+      image: null,
+      url: null,
+    },
+  ];
+
+  return projects.map(project => (
+    <MobileProject key={`mobile--${project.title}`} project={project} />
+  ));
 };
 
 const Portfolio = () => {
@@ -56,6 +75,7 @@ const Portfolio = () => {
         direction='row'
       >
         {renderProjects()}
+        {renderMobileProjects()}
       </Grid>
     </section>
   );
