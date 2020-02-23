@@ -37,7 +37,7 @@ const renderMainProjects = () => {
     {
       title: 'Reflectus',
       tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
-      image: reflectusMob,
+      image: reflectus,
       url: 'https://reflectus.lt',
     },
   ];
@@ -50,7 +50,7 @@ const renderMobileProjects = () => {
     {
       title: 'Reflectus',
       tech: ['fab fa-node fa-5x', 'fab fa-react fa-5x'],
-      image: null,
+      image: reflectusMob,
       url: null,
     },
   ];
@@ -66,6 +66,8 @@ const Portfolio = () => {
       <Typed className='portfolio-heading' strings={['PORTFOLIO']} />
       <Paper elevation={5} className='main-projects'>
         {renderMainProjects()}
+        <h2 className='portfolio__mobile__title'>Mobile Projects</h2>
+        {renderMobileProjects()}
       </Paper>
       <Grid
         container
@@ -75,7 +77,6 @@ const Portfolio = () => {
         direction='row'
       >
         {renderProjects()}
-        {renderMobileProjects()}
       </Grid>
     </section>
   );
