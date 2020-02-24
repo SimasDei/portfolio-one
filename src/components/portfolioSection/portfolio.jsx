@@ -5,7 +5,9 @@ import Typed from 'react-typed';
 
 import { data } from './portfolio.data';
 import mylimiausia from '../../assets/projectGifs/mylimiausia.gif';
+import mylimiausiaStatic from '../../assets/projectGifs/mylimiausia--static.png';
 import reflectus from '../../assets/projectGifs/reflectus--web.gif';
+import reflectusStatic from '../../assets/projectGifs/reflectus--static.png';
 import reflectusMob from '../../assets/projectGifs/reflectus--mob.gif';
 import './MainProject.styles.css';
 
@@ -32,12 +34,14 @@ const renderMainProjects = () => {
       title: 'Mylimiausia',
       tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
       image: mylimiausia,
+      staticImage: mylimiausiaStatic,
       url: 'https://mylimiausia.lt',
     },
     {
       title: 'Reflectus',
       tech: ['fab fa-vuejs fa-5x', 'fab fa-php fa-5x'],
       image: reflectus,
+      staticImage: reflectusStatic,
       url: 'https://reflectus.lt',
     },
   ];
