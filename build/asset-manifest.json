@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.63b8d83f.chunk.css",
-    "main.js": "/static/js/main.6a1d3a77.chunk.js",
-    "main.js.map": "/static/js/main.6a1d3a77.chunk.js.map",
+    "main.css": "/static/css/main.fc0fff5f.chunk.css",
+    "main.js": "/static/js/main.a4c9792e.chunk.js",
+    "main.js.map": "/static/js/main.a4c9792e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4425d5e.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4425d5e.js.map",
-    "static/js/2.f5d71048.chunk.js": "/static/js/2.f5d71048.chunk.js",
-    "static/js/2.f5d71048.chunk.js.map": "/static/js/2.f5d71048.chunk.js.map",
+    "static/js/2.7659ada8.chunk.js": "/static/js/2.7659ada8.chunk.js",
+    "static/js/2.7659ada8.chunk.js.map": "/static/js/2.7659ada8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a63dcd5d9d23f53a7d2f6403b85de4ce.js": "/precache-manifest.a63dcd5d9d23f53a7d2f6403b85de4ce.js",
+    "precache-manifest.94388058d49727a109f55289982b3d51.js": "/precache-manifest.94388058d49727a109f55289982b3d51.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.63b8d83f.chunk.css.map": "/static/css/main.63b8d83f.chunk.css.map",
-    "static/js/2.f5d71048.chunk.js.LICENSE": "/static/js/2.f5d71048.chunk.js.LICENSE",
+    "static/css/main.fc0fff5f.chunk.css.map": "/static/css/main.fc0fff5f.chunk.css.map",
+    "static/js/2.7659ada8.chunk.js.LICENSE": "/static/js/2.7659ada8.chunk.js.LICENSE",
     "static/media/After Effects.svg": "/static/media/After Effects.b9a250bf.svg",
     "static/media/Illustrator.svg": "/static/media/Illustrator.6edb1ad6.svg",
     "static/media/Lightroom.svg": "/static/media/Lightroom.2797074e.svg",
@@ -55,6 +55,7 @@
     "static/media/react-course-one.PNG": "/static/media/react-course-one.3960395b.PNG",
     "static/media/react-course-three.PNG": "/static/media/react-course-three.fb21f4d5.PNG",
     "static/media/react-course-two.PNG": "/static/media/react-course-two.20145077.PNG",
+    "static/media/reflectus--mob.gif": "/static/media/reflectus--mob.2c7064ab.gif",
     "static/media/reflectus--web.gif": "/static/media/reflectus--web.d64f77e2.gif",
     "static/media/sass-course.PNG": "/static/media/sass-course.22c6df73.PNG",
     "static/media/vue-course.PNG": "/static/media/vue-course.9db2a0d4.PNG",
@@ -63,8 +64,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a4425d5e.js",
-    "static/js/2.f5d71048.chunk.js",
-    "static/css/main.63b8d83f.chunk.css",
-    "static/js/main.6a1d3a77.chunk.js"
+    "static/js/2.7659ada8.chunk.js",
+    "static/css/main.fc0fff5f.chunk.css",
+    "static/js/main.a4c9792e.chunk.js"
   ]
 }
